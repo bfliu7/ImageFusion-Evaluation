@@ -1,14 +1,14 @@
-\# Image Fusion Evaluation For IVIF
+# Image Fusion Evaluation For IVIF
 
 
-\## 📰 News
-\* [2024-08-12] **Open-sourcing evaluation code with 21 metrics for infrared and visible image fusion!** 
+## 📰 News
+* [2024-08-12] **Open-sourcing evaluation code with 21 metrics for infrared and visible image fusion!** 
 
-\## 🗼 Platform
-\* Matlab
+## 🗼 Platform
+* Matlab
 
-\## 🚩 Structure of Folder
-\```
+## 🚩 Structure of Folder
+```
 Dataset Folder
     ├─21_pairs_tno
     │  ├─ccfuse
@@ -48,53 +48,53 @@ Dataset Folder
                         Fuse10.txt
                         ......
                         output_single.xlsx
-\```
-\* As shown above, **21_pairs_tno** and **40_vot_tno** are the folders of the dataset, and **output** is the result after running evaluation.
-\* Take the dataset **21_pairs_tno** as an example. Folder **ir** holds the infrared images, referring to **the format of "IR1.png"**. Folder **vis** holds the infrared images, referring to the format of **"VIS1.png"**. Folder **ccfuse** holds the fused results, which name of refers to **"Fuse1.png"**. 
-\* **".png"**, **".jpg"** and **'.bmp'** are all allowed to use.
-\* Folder output classifies the data first by dataset and then by algorithm. **Evaluation_metrics** holds the average of all fused images, and **evaluation_metrics_single** holds fused images separately.
+```
+* As shown above, **21_pairs_tno** and **40_vot_tno** are the folders of the dataset, and **output** is the result after running evaluation.
+* Take the dataset **21_pairs_tno** as an example. Folder **ir** holds the infrared images, referring to **the format of "IR1.png"**. Folder **vis** holds the infrared images, referring to the format of **"VIS1.png"**. Folder **ccfuse** holds the fused results, which name of refers to **"Fuse1.png"**. 
+* **".png"**, **".jpg"** and **'.bmp'** are all allowed to use.
+* Folder output classifies the data first by dataset and then by algorithm. **Evaluation_metrics** holds the average of all fused images, and **evaluation_metrics_single** holds fused images separately.
 
 
-\## 💁 Get Started
-\* Git clone the repository.
-\* Prepare the data as the structure of folder.
-\* Get to the project of top folder. 
-\* Change the default path in amain.m
-\```
+## 💁 Get Started
+* Git clone the repository.
+* Prepare the data as the structure of folder.
+* Get to the project of top folder. 
+* Change the default path in amain.m
+```
 vifb_path = "datasetexample\"; % better to use an absolute path
 bench = "21_pairs_tno";
 method = "ccfuse";
-\```
+```
     
-*##* *🖼️* *Metrics
-** Entropy(EN)
-\* Cross Entropy(CE)
-\* Mutual Information(MI)
-\* FMI_pixel
-\* FMI_dct
-\* FMI_w
-\* Peak signal to noise ratio(PSNR)
-\* MS structural similarity(MS-SSIM)
-\* Root mean square error(RMSE)
-\* Spaial Frequency(SF)
-\* Standard deviation(SD)
-\* Variance
-\* Edge Intensity(EI)
-\* Average gradient(AG)
-\* VIF
-\* Qcb
-\* Gradient based similarity measurement(Qabf)
-\* Correlation coefficient(CC)
-\* Sum of correlation differences(SCD)
-\* Nabf
-\* Qcv
+## 🖼️ Metrics
+* Entropy(EN)
+* Cross Entropy(CE)
+* Mutual Information(MI)
+* FMI_pixel
+* FMI_dct
+* FMI_w
+* Peak signal to noise ratio(PSNR)
+* MS structural similarity(MS-SSIM)
+* Root mean square error(RMSE)
+* Spaial Frequency(SF)
+* Standard deviation(SD)
+* Variance
+* Edge Intensity(EI)
+* Average gradient(AG)
+* VIF
+* Qcb
+* Gradient based similarity measurement(Qabf)
+* Correlation coefficient(CC)
+* Sum of correlation differences(SCD)
+* Nabf
+* Qcv
 
 
 
 
 
 
-\## 📈 Star Rising
+## 📈 Star Rising
 <picture>
   <source
     media="(prefers-color-scheme: dark)"[README (1).md](README%20%281%29.md)
@@ -116,11 +116,11 @@ method = "ccfuse";
 
 
 
-\## 📋 Citation
-Thanks to [Linfeng Tang](*https://github.com/Linfeng-Tang/Image-Fusion/tree/main*) and [Chenzhang Xing](*https://github.com/xingchenzhang/VIFB*) for the open source code, please cite these papers if you are using this code.
+## 📋 Citation
+Thanks to [Linfeng Tang](https://github.com/Linfeng-Tang/Image-Fusion/tree/main) and [Chenzhang Xing](https://github.com/xingchenzhang/VIFB) for the open source code, please cite these papers if you are using this code.
 
-\```*bibtex
-*@article{Tang2022Survey,
+```bibtex
+@article{Tang2022Survey,
   title={Deep learning-based image fusion: A survey},
   author={Tang, Linfeng and Zhang, Hao and Xu, Han and Ma, Jiayi},  
   journal={Journal of Image and Graphics}
@@ -217,4 +217,5 @@ author={Zhang, Xingchen and Demiris, Yiannis},
 journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
 year={2023},
 publisher={IEEE}}
-\```
+```
+
