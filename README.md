@@ -1,4 +1,4 @@
-# Image Fusion Evaluation For IVIF
+# Image Fusion Evaluation
 
 
 ## 📰 News
