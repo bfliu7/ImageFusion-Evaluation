@@ -99,18 +99,18 @@ method = "ccfuse";
   <source
     media="(prefers-color-scheme: dark)"[README (1).md](README%20%281%29.md)
     srcset="
-      https://api.star-history.com/svg?repos=l1uuuuu/ImageFusion-for-IVIF-Evaluation&type=Date&theme=dark
+      https://api.star-history.com/svg?repos=bfliu7/ImageFusion-Evaluation&type=Date&theme=dark
     "
   />
   <source
     media="(prefers-color-scheme: light)"
     srcset="
-      https://api.star-history.com/svg?repos=l1uuuuu/ImageFusion-for-IVIF-Evaluation&type=Date
+      https://api.star-history.com/svg?repos=bfliu7/ImageFusion-Evaluation&type=Date
     "
   />
   <img
     alt="Star History Chart"
-    src="https://api.star-history.com/svg?repos=l1uuuuu/ImageFusion-for-IVIF-Evaluation&type=Date"
+    src="https://api.star-history.com/svg?repos=bfliu7/ImageFusion-Evaluation&type=Date"
   />
 </picture>
 
